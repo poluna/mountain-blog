@@ -1,8 +1,3 @@
-:root {
-  --navbar-height: 60px;
-  --primary-color: rgb(247, 247, 247);
-}
-
 .navbar {
   background: linear-gradient(90deg, rgb(30, 30, 30) 0%, rgb(39, 39, 39) 100%);
   font-size: 1.2rem;

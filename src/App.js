@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import MainPanel from "./components/MainPanel";
 import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <MainPanel />
         <Cards />
+        <Footer />
         <Switch>
           <Route path="/" exact />
         </Switch>

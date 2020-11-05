@@ -9,7 +9,7 @@ import Gallery from "./components/pages/Gallery";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/mountain-blog">
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />

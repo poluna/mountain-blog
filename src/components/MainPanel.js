@@ -5,7 +5,7 @@ import "./MainPanel.css";
 
 function MainPanel() {
   return (
-    <div className="intro-container">
+    <div className="intro-container" style={{background: "url('images/img-home.jpg') center center/cover no-repeat"}}>
       {/* <video src="/videos/video-1.mp4" autoPlay loop muted /> */}
       <h1>MOUNTAIN PASSION</h1>
       <p>Enjoy mountain posts and photos!</p>
